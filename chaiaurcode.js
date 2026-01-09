@@ -35,7 +35,7 @@ form.addEventListener('submit',function(e){
             message.innerHTML = "you are underweight"
             message.style.color = "#a61616"
         } else if( BMI > 18.6 && BMI < 24.9){
-            message.innerHTML = "you weight is normal"
+            message.innerHTML = "your weight is normal"
             message.style.color = "#135b0dff"
         }else{
             message.innerHTML = "you are overweight"
